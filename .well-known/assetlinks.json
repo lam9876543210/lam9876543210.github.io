@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.textracompanion",
+      "sha256_cert_fingerprints": [
+        "9B:96:68:63:F5:D3:76:20:DB:94:A9:12:C1:66:76:15:58:EC:75:FA:65:51:B6:10:90:45:67:0E:7B:C2:91:74"
+      ]
+    }
+  }
+]
