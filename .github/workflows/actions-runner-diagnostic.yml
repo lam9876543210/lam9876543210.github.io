@@ -1,0 +1,13 @@
+name: Actions runner diagnostic
+on:
+  push:
+    branches: [roulette-actions-runner-diagnostic-20261110]
+    paths: [.github/workflows/actions-runner-diagnostic.yml]
+permissions:
+  contents: read
+jobs:
+  check-runner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm hosted runner starts
+        run: echo "GITHUB_ACTIONS_RUNNER_AVAILABLE"
